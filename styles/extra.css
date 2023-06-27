@@ -1,0 +1,6 @@
+h2[freq]:after {
+    content: "Frequency: " attr(freq);
+    color: hsl(calc(var(--freq) * 1.2), 100%, 50%);
+    font-size: 0.65em;
+    margin-left: 1rem;
+}
